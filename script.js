@@ -60,6 +60,7 @@ submitBtn.onclick = () => {
   if (passwordInput.value.length >= 6) {
     passwordInput.classList.add("is-valid");
     isPasswordOk = true; 
+  }else{
     passwordInput.classList.add("is-invalid");
   }
 
